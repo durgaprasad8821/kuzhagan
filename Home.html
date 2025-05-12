@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>KUZHAGAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- This is the Navbar Code  -->
+    <nav class="navbar">
+        <div class="logo">KUZHAGAN</div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Events</a></li>
+          <li class="contact"><a href="#">Contact Us <span class="right-arrow-nav"> &#8680;</span></a></li>
+        </ul>
+      </nav>
+
+    <!-- Here end of the Navbar Sections -->
+
+    <section class="hero-container">
+        <div class="hero-text">
+          <h4>— Your Knowledge Is Our Priority</h4>
+          <h1>Learn Without Limits<br>Grow Your <span>Knowledge</span></h1>
+          <p>Become more efficient and gain your knowledge to the next level. Industry-standard courses are for you. Let's unlock your potential.</p>
+          <button>Explore Us</button>
+        </div>
+        <div class="hero-image-section">
+            <div class="image-wrapper">
+              <!-- Left Image Group -->
+              <div class="image-group yellow">
+                <span class="bg-shape"></span>
+                <img src="https://img.freepik.com/free-photo/brainstorm-meeting_1098-15871.jpg?ga=GA1.1.147574516.1736603436&semt=ais_hybrid&w=740" alt="Left" class="hero-img">
+                <img src="https://img.freepik.com/free-vector/shine-star-cluster_78370-4546.jpg?semt=ais_hybrid&w=740" alt="Avatar" class="avatar bottom-left">
+              </div>
+          
+              <!-- Middle Image Group -->
+              <div class="image-group orange">
+                <span class="bg-shape"></span>
+                <img src="https://img.freepik.com/free-photo/handsome-indian-man-with-laptop-while-sitting-near-fountain-city-center-day_231208-2782.jpg?ga=GA1.1.147574516.1736603436&semt=ais_hybrid&w=740" alt="Middle" class="hero-img tall">
+              </div>
+          
+              <!-- Right Image Group -->
+              <div class="image-group blue">
+                <span class="bg-shape"></span>
+                <img src="https://img.freepik.com/free-photo/young-woman-working-laptop-floor-white-background_231208-9496.jpg?ga=GA1.1.147574516.1736603436&semt=ais_hybrid&w=740" alt="Right" class="hero-img">
+                <img src="https://img.freepik.com/free-vector/shine-star-cluster_78370-4546.jpg?semt=ais_hybrid&w=740" alt="Avatar" class="avatar top-right">
+              </div>
+          
+              <!-- Sparkle SVGs -->
+              <svg class="sparkle sparkle-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ccc"><circle cx="10" cy="10" r="2"/></svg>
+              <svg class="sparkle sparkle-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ccc"><circle cx="10" cy="10" r="2"/></svg>
+            </div>
+          </div>
+          
+      </section>
+
+      
+<section class="explore-opportunities">
+    <div class="container">
+      <!-- Heading -->
+      <h2 class="section-heading">Explore Opportunities</h2>
+
+      <!-- Description -->
+      <p class="section-description">Discover a variety of exciting opportunities tailored just for you. Choose a path that fits your interests and skills!</p>
+
+      <!-- Selection Options (Cards) -->
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="opportunity-card">
+                <h3 class="card-title">Career Growth</h3>
+                <p class="card-description">Enhance your skills and advance your career with our training and mentorship programs.</p>
+                <button class="cta-button">Learn More</button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="opportunity-card">
+                <h3 class="card-title">Internships</h3>
+                <p class="card-description">Join as an intern and gain real-world experience in your chosen field with us.</p>
+                <button class="cta-button">Explore</button>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="opportunity-card">
+                <h3 class="card-title">Freelance Projects</h3>
+                <p class="card-description">Work on flexible freelance projects that match your expertise and availability.</p>
+                <button class="cta-button">Get Started</button>
+                </div>
+            </div>
+    </div>
+  </section>
+
+
+  
+    <div class="review" id="reviewContainer">
+        <h2>What Our Users Say</h2>
+
+        <div class="review-section">
+          <!-- Card 1 -->
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <img class="profile-pic" src="https://i.pravatar.cc/100?img=5" alt="User 1">
+            <div class="name">Anna, Business Owner</div>
+            <p class="quote">
+              <span class="quote-icon">“</span>
+              Amazing support and easy to use. Really helped grow my productivity.
+              <span class="quote-icon">”</span>
+            </p>
+            <p class="footer-card">reallygreatsite.com</p>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <img class="profile-pic" src="https://i.pravatar.cc/100?img=8" alt="User 2">
+            <div class="name">Rahul, Developer</div>
+            <p class="quote">
+              <span class="quote-icon">“</span>
+              The UI and responsiveness are top-notch. Great experience overall!
+              <span class="quote-icon">”</span>
+            </p>
+            <p class="footer-card">reallygreatsite.com</p>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <img class="profile-pic" src="https://i.pravatar.cc/100?img=12" alt="User 3">
+            <div class="name">Maya, Designer</div>
+            <p class="quote">
+              <span class="quote-icon">“</span>
+              Clean layout and professional design. Highly recommend it.
+              <span class="quote-icon">”</span>
+            </p>
+            <p class="footer-card">reallygreatsite.com</p>
+          </div>
+      
+          <!-- Add more cards as needed -->
+        </div>
+    </div>
+
+
+    <footer class="footer-box">
+        <div class="footer-content">
+          <!-- Social Icons -->
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+      
+          <!-- Navigation Links -->
+          <div class="footer-nav">
+            <a href="#">Home</a>
+            <a href="#">Events</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Our Team</a>
+          </div>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="footer-bottom">
+          <p>Copyright ©2025, Designed by <span>KUZHAGAN</span></p>
+        </div>
+      </footer>
+  
+  
+
+   <script src="app.js"></script> 
+</body>
+</html>
